@@ -4,9 +4,9 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
-FLASH_STATION="$PROJECT_ROOT/flash-station"
-CONVERT_SCRIPT="$FLASH_STATION/scripts/cargo_elf_to_esptool.sh"
+#PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+#FLASH_STATION="$PROJECT_ROOT/flash-station"
+CONVERT_SCRIPT="./cargo_elf_to_esptool.sh"
 TARGET_DIR="$SCRIPT_DIR/target/xtensa-esp32s3-none-elf/release/examples"
 OUTPUT_DIR="$SCRIPT_DIR/target/binaries"
 
