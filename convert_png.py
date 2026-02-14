@@ -2,6 +2,7 @@
 """
 Convert PNG to raw RGB565 data for embedding in Rust code.
 Usage: python3 convert_png.py input.png output.bin
+This file generated with GitHub Copilot
 """
 
 import sys
